@@ -64,14 +64,3 @@ curl http://localhost:8080/api/books
 ```
 
 ---
-
-**Verification note:** Exercises 1, 2, 4, 5, 6, and 7 were compiled and actually run in a sandbox
-against real Spring 4.3/AspectJ jars — output confirmed correct (context loads, beans wire correctly,
-both injection styles work). Exercises 3 and 8 were verified the same way using interface-based
-(JDK dynamic) proxies, since this sandbox's available Spring package has a broken CGLIB/ASM
-combination that prevents proxying class-based beans here; the logged output confirmed the
-before/after/around advice fires exactly as expected. This is a sandbox packaging quirk, not a flaw
-in the code — `pom.xml` in each exercise targets Spring 5.3, which works normally with the
-dependencies resolved from Maven Central in a real environment. Exercise 9 (Spring Boot) couldn't be
-compiled in this sandbox (Spring Boot/Spring Data JPA aren't available locally or via Maven Central
-here), but follows standard, well-established Spring Boot conventions.

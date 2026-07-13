@@ -11,7 +11,15 @@ Cognizant-Digital-Nurture-5.0/
 ├── Week1/
 │   ├── Algorithms_Data_Structures/
 │   ├── Design-Principles-and-Design-Patterns/
-│   └── PLSQL_Exercises/
+│   ├── PLSQL_Exercises/
+│   └── JUnit-Mockito-Logging-exercises/
+│       ├── JUnit-Advanced-exercises/
+│       ├── JUnit-exercises/
+│       ├── junit-spring-test-exercises/
+│       ├── mockito-advanced-exercises/
+│       ├── Mockito-exercises/
+│       ├── mockito-mock-dependencies-exercises/
+│       └── slf4j-logging-exercises/
 ├── Week2/
 │   ├── Spring-Core-and-Maven/
 │   └── Spring-JPA-and-Hibernate/
@@ -43,6 +51,15 @@ Covers SOLID principles and common design patterns like Creational, Structural a
 
 #### 3. PL/SQL Exercises
 Covers Oracle PL/SQL programming including stored procedures, functions, cursors, triggers and exception handling.
+
+#### 4. JUnit, Mockito & SLF4J Logging Exercises
+Covers unit testing, mocking, Spring Test slices, and logging fundamentals.
+
+- **JUnit-Advanced-exercises** / **JUnit-exercises** — Core and advanced JUnit 5 testing exercises
+- **junit-spring-test-exercises** — Spring testing exercises: `@WebMvcTest`, `@DataJpaTest`, `@SpringBootTest` integration tests, and `@ParameterizedTest`
+- **mockito-advanced-exercises** / **Mockito-exercises** — Mocking repositories, REST clients, file I/O, network interactions, and multiple return values with Mockito
+- **mockito-mock-dependencies-exercises** — Mocking service/repository dependencies across controller tests, service tests, and Spring Boot integration tests
+- **slf4j-logging-exercises** — Logging error/warning levels, parameterized logging, and configuring multiple Logback appenders (console + file)
 
 ---
 
@@ -152,13 +169,14 @@ Covers building and connecting microservices with Spring Boot, including service
 
 ## 🛠️ Technologies Used
 
-- Java 11
-- Spring Boot 2.7.x
+- Java 11 / 17
+- Spring Boot 2.7.x / 3.2.x
 - Spring Data JPA
 - Hibernate ORM
 - Spring Security
 - JWT (jjwt 0.9.0)
-- Spring Cloud (Microservices, API Gateway)
+- Spring Cloud (Microservices, API Gateway, Eureka, OpenFeign, Resilience4j)
+- JUnit 5, Mockito, SLF4J, Logback
 - MySQL
 - H2 In-Memory Database
 - Maven

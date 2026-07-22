@@ -30,11 +30,32 @@ Cognizant-Digital-Nurture-5.0/
 │       ├── 3. Spring REST/
 │       ├── 4. Spring REST/
 │       └── jwt-handson/
-└── Week4/
-    ├── microservices-api-gateway/
-    ├── microservices-exercises/
-    ├── microservices/
-    └── microservices2/
+├── Week4/
+│   ├── microservices-api-gateway/
+│   ├── microservices-exercises/
+│   ├── microservices/
+│   └── microservices2/
+├── Week5/
+│   ├── 1st Exercise - React/
+│   ├── 2nd Exercise - React/
+│   ├── 3rd Exercise - React/
+│   ├── 4th Exercise - React/
+│   ├── 5th Exercise - React/
+│   ├── 6th Exercise - React/
+│   ├── 7th Exercise - React/
+│   ├── 8th Exercise - React/
+│   ├── 9th Exercise - React/
+│   └── 10th Exercise - React/
+└── Week6/
+    ├── 11th Exercise - React/
+    ├── 12th Exercise - React/
+    ├── 13th Exercise - React/
+    ├── 14th Exercise - React/
+    ├── 15th Exercise - React/
+    ├── 16th Exercise - React/
+    ├── 17th Exercise - React/
+    ├── 18th Exercise - React/
+    └── 19th Exercise - React/
 ```
 
 ---
@@ -167,6 +188,37 @@ Covers building and connecting microservices with Spring Boot, including service
 
 ---
 
+### Week 5 — React (Exercises 1–10)
+Covers foundational React concepts through hands-on exercises.
+
+- **1st Exercise** — React project setup, JSX basics, rendering components
+- **2nd Exercise** — Functional components and props
+- **3rd Exercise** — State management with `useState`
+- **4th Exercise** — Event handling in React
+- **5th Exercise** — Conditional rendering
+- **6th Exercise** — Lists and keys
+- **7th Exercise** — Forms and controlled components
+- **8th Exercise** — `useEffect` hook and lifecycle methods
+- **9th Exercise** — Component communication and prop drilling
+- **10th Exercise** — React Router and navigation
+
+---
+
+### Week 6 — React (Exercises 11–19)
+Covers advanced React concepts and patterns.
+
+- **11th Exercise** — Context API and global state management
+- **12th Exercise** — Custom hooks
+- **13th Exercise** — `useReducer` for complex state
+- **14th Exercise** — Performance optimization with `useMemo` and `useCallback`
+- **15th Exercise** — Fetching data from APIs
+- **16th Exercise** — Error boundaries
+- **17th Exercise** — Higher-order components (HOC)
+- **18th Exercise** — Refs and `useRef`
+- **19th Exercise** — Advanced React patterns and project integration
+
+---
+
 ## 🛠️ Technologies Used
 
 - Java 11 / 17
@@ -181,6 +233,10 @@ Covers building and connecting microservices with Spring Boot, including service
 - H2 In-Memory Database
 - Maven
 - Lombok
+- React 18
+- JavaScript (ES6+)
+- HTML5 / CSS3
+- Node.js / npm
 
 ---
 

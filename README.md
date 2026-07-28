@@ -46,16 +46,21 @@ Cognizant-Digital-Nurture-5.0/
 │   ├── 8th Exercise - React/
 │   ├── 9th Exercise - React/
 │   └── 10th Exercise - React/
-└── Week6/
-    ├── 11th Exercise - React/
-    ├── 12th Exercise - React/
-    ├── 13th Exercise - React/
-    ├── 14th Exercise - React/
-    ├── 15th Exercise - React/
-    ├── 16th Exercise - React/
-    ├── 17th Exercise - React/
-    ├── 18th Exercise - React/
-    └── 19th Exercise - React/
+├── Week6/
+│   ├── 11th Exercise - React/
+│   ├── 12th Exercise - React/
+│   ├── 13th Exercise - React/
+│   ├── 14th Exercise - React/
+│   ├── 15th Exercise - React/
+│   ├── 16th Exercise - React/
+│   ├── 17th Exercise - React/
+│   ├── 18th Exercise - React/
+└── Week7/
+    ├── 1_Git-HOL/
+    ├── 2_Git-HOL/
+    ├── 3_Git-HOL/
+    ├── 4_Git-HOL/
+    └── 5_Git-HOL/
 ```
 
 ---
@@ -216,6 +221,14 @@ Covers advanced React concepts and patterns.
 - **17th Exercise** — Higher-order components (HOC)
 - **18th Exercise** — Refs and `useRef`
 - **19th Exercise** — Advanced React patterns and project integration
+### Week 7 — Git & Version Control
+Covers core Git concepts and workflows using Git Bash and GitLab, including repository setup, branching, merging, conflict resolution, and remote synchronization.
+ 
+- **1_Git-HOL** — Git setup, user configuration (`git config`), Notepad++ editor integration, `git init`, `git add`, `git commit`, `git push`, `git pull` with a remote `GitDemo` repository on GitLab
+- **2_Git-HOL** — `.gitignore` configuration to exclude `.log` files and `log/` folders; verifying ignored files are absent from `git status`
+- **3_Git-HOL** — Branching (`GitNewBranch`), switching branches, committing changes, visual diff with P4Merge, merging into master, `git log --oneline --graph --decorate`, and GitLab Merge Requests
+- **4_Git-HOL** — Conflict resolution: simulating diverged edits on `hello.xml` in `GitWork` branch and master, 3-way merge with P4Merge, committing resolved state, updating `.gitignore` with backup files
+- **5_Git-HOL** — Final cleanup: verifying clean master state, pulling from remote, pushing all pending changes, and confirming updates on GitLab
 
 ---
 
